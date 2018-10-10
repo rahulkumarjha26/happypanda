@@ -4,14 +4,16 @@ html,body{
 }
 
 body{
+    background-image: url(header.gif);
     font-family: 'Pacifico', cursive;
 }
 img{
+    background: white;
     display: inline-block;
     border: #FFCAAD solid 5px;
     margin: 10px;
     transition: all 0.5s;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 img:hover{
     transform: scale(1.1);
@@ -25,16 +27,28 @@ hr{
 }
 .faded{
     color: #C4006F;
+    background-color: antiquewhite;
+    border-bottom: 15px solid salmon;
+    margin-top: 50px;
     transition: all 1s;
-    width: 200px;
-    border-bottom: 10px solid pink;
     margin-bottom: 10px;
+    width: 300px;
     border-radius: 100px;
+    margin-bottom: 50px;
+}
+p{
+    font-size: 2em;
+    width: 300px;
+}
+h2{
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 .faded:hover{
     transform: scale(1.3);
-    width: 200px;
-    border-radius: 100px;
+    border-bottom-width: 30px;
+    border-radius: 30;
+    margin-bottom: 50px;
 }
 header.happypanda {
     background-position: center;
